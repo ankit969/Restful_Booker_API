@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Suite" parallel="false">
+
+    <test name="Booking Tests">
+
+        <classes>
+            <class name="tdd.BookingTest"/>
+            <class name="tdd.E2ETest"/>
+        </classes>
+
+    </test>
+
+</suite>
